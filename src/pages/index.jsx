@@ -1,12 +1,12 @@
+import clsx from 'clsx'
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-import clsx from 'clsx'
 
 import { Button } from '@/components/Button'
 import { Card } from '@/components/Card'
 import { Container } from '@/components/Container'
-import { InstagramIcon, LinkedInIcon } from '@/components/SocialIcons'
+import { LinkedInIcon } from '@/components/SocialIcons'
 import burger from '@/images/logos/burger.svg'
 import free from '@/images/logos/free.svg'
 import lead from '@/images/logos/lead.svg'
@@ -17,9 +17,6 @@ import image2 from '@/images/photos/image-2.png'
 import image3 from '@/images/photos/image-3.png'
 import image4 from '@/images/photos/image-4.png'
 import image5 from '@/images/photos/image-5.png'
-import { formatDate } from '@/lib/formatDate'
-import { generateRssFeed } from '@/lib/generateRssFeed'
-import { getAllArticles } from '@/lib/getAllArticles'
 
 function MailIcon(props) {
   return (
@@ -84,14 +81,14 @@ const items = [
   {
     author: 'Michael Scalia',
     date: '2023-11-1',
-    slug: '/projects',
+    slug: 'projects',
     title: 'Developing and Designing for the web',
     description:
       'My current work primarily focuses on using React/Next.js coupled with MUI. Before this, my expertise was centered around providing solutions with WordPress and Shopify for e-commerce platforms.',
   },
   {
     author: 'Michael Scalia',
-    slug: '/renders',
+    slug: 'renders',
     date: '2023-11-1',
     title: '3D Render Journey',
     description:
@@ -314,18 +311,4 @@ export default function Home({ articles }) {
       </Container>
     </>
   )
-}
-
-export async function getStaticProps() {
-  if (process.env.NODE_ENV === 'production') {
-    await generateRssFeed()
-  }
-
-  return {
-    props: {
-      articles: (await getAllArticles())
-        .slice(0, 4)
-        .map(({ component, ...meta }) => meta),
-    },
-  }
 }

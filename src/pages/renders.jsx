@@ -49,8 +49,10 @@ export default function Uses() {
               <a
                 href="https://www.artstation.com/artwork/k4RBqy"
                 target="_blank"
+                rel="noreferrer"
               >
                 <Image
+                  alt="Pokeball"
                   width={'100%'}
                   height={'200%'}
                   className="rounded-xl transition transition-shadow delay-150 ease-in-out hover:-translate-y-1 hover:scale-105"
@@ -62,8 +64,10 @@ export default function Uses() {
               <a
                 href="https://www.artstation.com/artwork/KaPY9x"
                 target="_blank"
+                rel="noreferrer"
               >
                 <Image
+                  alt="Grass field"
                   width={'100%'}
                   height={'200%'}
                   className="rounded-xl transition transition-shadow delay-150 ease-in-out hover:-translate-y-1 hover:scale-105"
@@ -75,8 +79,10 @@ export default function Uses() {
               <a
                 href="https://www.artstation.com/artwork/xzmGr1"
                 target="_blank"
+                rel="noreferrer"
               >
                 <Image
+                  alt="Bladerunner 2049 Viewfinder"
                   width={'100%'}
                   height={'200%'}
                   className="rounded-xl transition transition-shadow delay-150 ease-in-out hover:-translate-y-1 hover:scale-105"
@@ -88,8 +94,10 @@ export default function Uses() {
               <a
                 href="https://www.artstation.com/artwork/4bwxgl"
                 target="_blank"
+                rel="noreferrer"
               >
                 <Image
+                  alt="Chair"
                   width={'100%'}
                   height={'200%'}
                   className="rounded-xl transition transition-shadow delay-150 ease-in-out hover:-translate-y-1 hover:scale-105"
@@ -101,8 +109,10 @@ export default function Uses() {
               <a
                 href="https://www.artstation.com/artwork/Yayzr3"
                 target="_blank"
+                rel="noreferrer"
               >
                 <Image
+                  alt="Wizard Staff"
                   width={'100%'}
                   height={'200%'}
                   className="rounded-xl transition transition-shadow delay-150 ease-in-out hover:-translate-y-1 hover:scale-105"
@@ -116,8 +126,10 @@ export default function Uses() {
               <a
                 href="https://photos.google.com/share/AF1QipNkkTpPQ8UcJAPymYDjJtDNyCqfxi2Keyq8DkLdPqUEkuHLklZvEVUvTrCePVzlDg?key=cVRDTTBxeDF1eExYYjFZRnhQdzFzcXVfbzllNXN3"
                 target="_blank"
+                rel="noreferrer"
               >
                 <Image
+                  alt="Tutorial Work"
                   width={'100%'}
                   height={'200%'}
                   className="rounded-xl transition transition-shadow delay-150 ease-in-out hover:-translate-y-1 hover:scale-105"
