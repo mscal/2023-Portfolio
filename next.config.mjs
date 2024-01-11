@@ -9,6 +9,7 @@ const nextConfig = {
   experimental: {
     scrollRestoration: true,
   },
+   output: "standalone",
 }
 
 const withMDX = nextMDX({
