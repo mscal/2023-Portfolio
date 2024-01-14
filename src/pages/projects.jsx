@@ -11,6 +11,11 @@ const projects = [
     link: { href: 'http://argenic.com', label: 'argenic.com' },
   },
   {
+    name: 'Japlanner',
+    description: 'Personal Project / Webapp',
+    link: { href: 'https://japlanner.vercel.app/', label: 'japlanner' },
+  },
+  {
     name: 'Health First',
     description: 'Web Development / Design',
     link: {
