@@ -7,7 +7,7 @@ import { SimpleLayout } from '@/components/SimpleLayout'
 const projects = [
   {
     name: 'Argenic / Argenic Portal',
-    description: 'Web Development / Design',
+    description: 'Web Development / Design - Argenic',
     link: { href: 'http://argenic.com', label: 'argenic.com' },
   },
   {
@@ -16,22 +16,30 @@ const projects = [
     link: { href: 'https://japlanner.vercel.app/', label: 'japlanner' },
   },
   {
+    name: 'Ballistic Beer',
+    description: 'Shopify Development - Burger Digital',
+    link: {
+      href: 'https://ballisticbeer.com/collections/',
+      label: 'https://ballisticbeer.com/',
+    },
+  },
+  {
     name: 'Health First',
-    description: 'Web Development / Design',
+    description: 'Web Development / Design - Leadpal',
     link: {
       href: 'https://www.healthfirstgroup.com.au/',
       label: 'healthfirstgroup.com',
     },
   },
   {
-    name: 'Muse Tuition',
-    description: 'Web Development / Design',
-    link: { href: 'https://muse-tuition.netlify.app/', label: 'muse-tuition' },
+    name: 'Wagepay',
+    description: 'Logo creation / Initial Design - Leadpal',
+    link: { href: 'https://wagepay.com.au/', label: 'wagepay.com' },
   },
   {
-    name: 'Wagepay',
-    description: 'Logo creation / Initial Design',
-    link: { href: 'https://wagepay.com.au/', label: 'wagepay.com' },
+    name: 'Muse Tuition',
+    description: 'Web Development / Design ',
+    link: { href: 'https://muse-tuition.netlify.app/', label: 'muse-tuition' },
   },
 ]
 
