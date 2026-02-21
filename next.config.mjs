@@ -1,6 +1,4 @@
 import nextMDX from '@next/mdx'
-import remarkGfm from 'remark-gfm'
-import rehypePrism from '@mapbox/rehype-prism'
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -11,11 +9,13 @@ const nextConfig = {
   },
 }
 
+// No remark/rehype plugins = serializable options, so Turbopack works.
+// Add remarkGfm + rehypePrism back and use `next dev --webpack` / `next build --webpack` if you add MDX content that needs GFM (tables, etc.) or code highlighting.
 const withMDX = nextMDX({
   extension: /\.mdx?$/,
   options: {
-    remarkPlugins: [remarkGfm],
-    rehypePlugins: [rehypePrism],
+    remarkPlugins: [],
+    rehypePlugins: [],
   },
 })
 

@@ -1,7 +1,8 @@
 {
-  "name": "tailwindui-template",
-  "version": "0.1.0",
+  "name": "mikes-portfolio",
+  "version": "1.0.0",
   "private": true,
+  "packageManager": "pnpm@9.15.0",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -10,29 +11,32 @@
   },
   "browserslist": "defaults, not ie <= 11",
   "dependencies": {
-    "@headlessui/react": "^1.7.13",
-    "@mapbox/rehype-prism": "^0.8.0",
+    "@headlessui/react": "^2.2.0",
     "@mdx-js/loader": "^2.1.5",
     "@mdx-js/react": "^2.1.5",
-    "@next/mdx": "^13.0.2",
+    "@next/mdx": "16.1.6",
     "@tailwindcss/typography": "^0.5.4",
     "autoprefixer": "^10.4.12",
     "clsx": "^1.2.1",
     "fast-glob": "^3.2.11",
     "feed": "^4.2.2",
     "focus-visible": "^5.2.0",
-    "next": "^13.4.6",
+    "next": "16.1.6",
     "next-router-mock": "^0.9.3",
     "postcss-focus-visible": "^6.0.4",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "remark-gfm": "^3.0.1",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
     "sharp": "^0.32.6",
     "tailwindcss": "^3.3.0"
   },
+  "pnpm": {
+    "overrides": {
+      "minimatch": ">=10.2.1"
+    }
+  },
   "devDependencies": {
-    "eslint": "8.26.0",
-    "eslint-config-next": "13.0.2",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "16.1.6",
     "prettier": "^2.8.7",
     "prettier-plugin-tailwindcss": "^0.2.6"
   }

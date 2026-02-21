@@ -12,6 +12,7 @@ import free from '@/images/logos/free.svg'
 import lead from '@/images/logos/lead.svg'
 import tpa from '@/images/logos/tpa.svg'
 import uq from '@/images/logos/uq.svg'
+import antero from '@/images/logos/antero.png'
 import image1 from '@/images/photos/image-1.png'
 import image2 from '@/images/photos/image-2.png'
 import image3 from '@/images/photos/image-3.png'
@@ -149,14 +150,21 @@ function Newsletter() {
 function Resume() {
   let resume = [
     {
-      company: 'TPA',
-      title: 'Front end Engineer',
-      logo: tpa,
-      start: '2022',
+      company: 'Antero',
+      title: 'Frontend Developer',
+      logo: antero,
+      start: '2024',
       end: {
         label: 'Present',
         dateTime: new Date().getFullYear(),
       },
+    },
+    {
+      company: 'TPA',
+      title: 'Frontend Engineer',
+      logo: tpa,
+      start: '2022',
+      end: '2024',
     },
     {
       company: 'Burger Digital',
@@ -201,7 +209,7 @@ function Resume() {
               <Image
                 src={role.logo}
                 alt="role"
-                className="h-7 w-7"
+                className="h-7 w-7 rounded-full"
                 unoptimized
               />
             </div>
